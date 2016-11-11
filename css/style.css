@@ -46,14 +46,14 @@ h2{
     text-shadow: 2px 2px 4px green;
 }
 li, p{
-    font: 1.0rem 'Droid Sans', 'Imprima', 'Droid+Sans+Mono', sans-serif;
+    font: 1.0rem 'Imprima', 'Droid Sans', 'Droid+Sans+Mono', sans-serif;
 }
 
 pre, code, kbd{
-    font: normal 0.618rem 'Droid Sans', 'Imprima', 'Droid+Sans+Mono', sans-serif;
+    font: normal 0.618rem 'Imprima', 'Droid Sans', 'Droid+Sans+Mono', sans-serif;
 }
 .footer{
-    font-family: 'Droid+Serif','Cantata One', Palatino, serif;
+    font-family: 'Cantata One', 'Droid+Serif', Palatino, serif;
     font-size: 0.618;
     background-color: green;
 }
