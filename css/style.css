@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: ghostwhite;
+    color: black;
 }
 html{
     font-size: 1.0rem;
@@ -48,16 +48,14 @@ h2{
 li, p{
     font: 1.0rem 'Droid Sans', 'Imprima', 'Droid+Sans+Mono', sans-serif;
 }
-a,
-a:link,
-a:visited {
-    font: 1.618rem 'Droid Sans', 'Imprima', 'Droid+Sans+Mono', sans-serif;
-}
+
 pre, code, kbd{
     font: normal 0.618rem 'Droid Sans', 'Imprima', 'Droid+Sans+Mono', sans-serif;
 }
 .footer{
     font-family: 'Droid+Serif','Cantata One', Palatino, serif;
+    font-size: 0.618;
+    background-color: green;
 }
     
 /* mobile View */
@@ -80,11 +78,13 @@ header{
 }
 nav{
     width: 100%;
+    
 }
 nav>ul{
     width: 100%;
     list-style:none;
     background-color: #6E87E2;
+    
 }
 nav li{
     width: 100%;
@@ -92,13 +92,14 @@ nav li{
     border-top: none;
     margin: 0;
     padding: 0;
+    font-size: 1.618rem;
 }
 nav a,
 nav a:link,
 nav a:visited{
     display: block;
     text-align: center;
-    color: ghostwhite;
+    color: snow;
     text-decoration: none;
 }
 nav a:active,
@@ -125,12 +126,10 @@ main{
 .footer{
     width: 100%;
     clear:both;
-    background-color: green;
-    font-size: 0.618rem;
     padding: 8px;
 }
 footer a {
-    color: ghostwhite;
+    color: snow;
     text-decoration: none;
 }
 footer li{
@@ -211,11 +210,10 @@ footer  a:hover{
     .footer{
         width: 90%;
         clear:both;
-        background-color: green;
         margin: 0 30px;
     }
     footer a {
-        color: ghostwhite;
+        color: snow;
         text-decoration: none;
     }
     footer li{
@@ -295,11 +293,10 @@ footer  a:hover{
     }
     .footer{
         width: 100%;
-        background-color: green;
         margin: 0;
     }
     footer a {
-        color: ghostwhite;
+        color: snow;
         text-decoration: none;
     }
     footer li{
@@ -359,7 +356,6 @@ footer - 100%*/
         width: 100%;
         float: left;
         border: none;
-        font: 2.618rem;
     }
     nav a,
     nav a:link,
@@ -392,11 +388,10 @@ footer - 100%*/
     }
     .footer{
         width: 100%;
-        background-color: green;
         margin: 0;
     }
     footer a {
-        color: ghostwhite;
+        color: snow;
         text-decoration: none;
     }
     footer li{
