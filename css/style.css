@@ -129,7 +129,7 @@ main{
     padding: 8px;
 }
 footer a {
-    color: ghostwhite;
+    color: snow;
     text-decoration: none;
 }
 footer li{
@@ -213,7 +213,7 @@ footer  a:hover{
         margin: 0 30px;
     }
     footer a {
-        color: green;
+        color: snow;
         text-decoration: none;
     }
     footer li{
@@ -391,7 +391,7 @@ footer - 100%*/
         margin: 0;
     }
     footer a {
-        color: ghostwhite;
+        color: snow;
         text-decoration: none;
     }
     footer li{
